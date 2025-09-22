@@ -39,7 +39,7 @@ st.divider()
 # 1 ============================== Lendo a base de dados excel do Licenciamento Ambiental ===================================
 
 df_cta = pd.read_excel(
-    r"assets\NOVO PROCESSOS EM ANDAMENTO 2025  - CTA.xlsx",
+    r"assets/NOVO PROCESSOS EM ANDAMENTO 2025  - CTA.xlsx",
     sheet_name=['CTA 2025', 'ANALISTAS']
 )
 
@@ -48,7 +48,7 @@ df_cta_ana = df_cta['ANALISTAS']
 
 
 df_lic_amb_2025 = pd.read_excel(
-    r"assets\LICENÇAS EMITIDAS AMBIENTAIS.xlsx",
+    r"assets/LICENÇAS EMITIDAS AMBIENTAIS.xlsx",
     sheet_name="Saída",
     header=1
 )

@@ -41,7 +41,7 @@ st.divider()
 # 1 ============================== Lendo a base de dados excel do cadastro e memorando ===================================
 
 df_cadastro = pd.read_excel(
-    r"assets\NOVA_ PROCESSOS EM ANDAMENTO 2025  - CADASTRO.xlsx",
+    r"assets/NOVA_ PROCESSOS EM ANDAMENTO 2025  - CADASTRO.xlsx",
     sheet_name=['PROTOCOLO 2025', 'QUANTITATIVO', 'ANALISTAS', 'MEMORANDO 2025']
 )
 

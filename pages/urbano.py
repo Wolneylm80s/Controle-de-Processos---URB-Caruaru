@@ -38,7 +38,7 @@ st.divider()
 #  ============================== 1. Lendo a base de dados excel do Licenciamento Urbano ===================================
 
 df_ctu = pd.read_excel(
-    r"assets\NOVA_ PROCESSOS EM ANDAMENTO 2025  - CTU.xlsx",
+    r"assets/NOVA_ PROCESSOS EM ANDAMENTO 2025  - CTU.xlsx",
     sheet_name=['GERAL 2025', 'SIMPLIFICADA 2025', 'COLEGIADO 2025', 'QUANTITATIVO', 'ANALISTAS']
 )
 

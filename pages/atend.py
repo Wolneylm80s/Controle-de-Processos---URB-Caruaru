@@ -37,7 +37,7 @@ st.divider()
 
 # 1 ============================== Lendo o base de dados excel ===================================
 
-df_atend = pd.read_excel("assets\ATENDIMENTO - CALENDARIO.xlsx", sheet_name="QTDE_GERAL")
+df_atend = pd.read_excel("assets/ATENDIMENTO - CALENDARIO.xlsx", sheet_name="QTDE_GERAL")
 
 # Converter a coluna DATA para formato dd/mm/aa e as demais para formatos númericos:
 df_atend["Data"] = pd.to_datetime(df_atend["Data"]).dt.strftime("%d/%m/%y")
