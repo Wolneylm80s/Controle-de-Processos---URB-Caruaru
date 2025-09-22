@@ -1,8 +1,9 @@
-streamlit
-numpy
-pandas
-matplotlib
-seaborn
-plotly
-plotly-express
-calendar
+matplotlib==3.10.6
+numpy==2.3.2
+openpyxl==3.1.5
+pandas==2.3.2
+plotly==6.3.0
+plotly-express==0.4.1
+scipy==1.16.1
+streamlit==1.49.1
+
